@@ -1,0 +1,50 @@
+<!-- 
+	Interactive T-shirt Design Web App Prototype
+for Arvind Textiles
+
+Date : 24th Feb 2019
+Author : Pranoy Guduru (gpranoy@gmail.com)
+
+
+ -->
+ <!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="./script.js"></script>
+
+	<!-- JQUERY -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Drag Drop etc. -->
+	<script src="https://unpkg.com/konva@3.0.0/konva.min.js"></script>
+
+	<!-- Styling -->
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body onload="prepare()">
+
+	<div class="container">
+        <div id="leftSide">
+          <!-- This content will take up 3/12 (or 1/4) of the container -->
+        </div>
+
+        <div id="rightSide">
+		    <img id="element" src="./images/pngs/a-01.png">
+			<img id="element" src="./images/pngs/a-02.png">
+			<img id="element" src="./images/pngs/a-03.png">
+			<img id="element" src="./images/pngs/a-04.png">
+			<img id="element" src="./images/pngs/a-05.png">
+			<img id="element" src="./images/pngs/a-06.png">
+			<img id="element" src="./images/pngs/a-07.png">
+			<img id="element" src="./images/pngs/a-08.png">
+			<img id="element" src="./images/pngs/a-09.png">
+			<img id="element" src="./images/pngs/a-10.png">
+			<img id="element" src="./images/pngs/a-11.png">
+			<img id="element" src="./images/pngs/a-12.png">
+        </div>
+    </div>
+
+</body>
+</html>
+

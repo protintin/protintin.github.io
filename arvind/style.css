@@ -1,0 +1,122 @@
+body{
+	margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#leftSide{
+	position: fixed;
+	top: 0px;
+	width: 70%;
+	height: 700px;
+	background-image: url("./images/shirt.png");
+	background-repeat: no-repeat;
+	background-size: 80% auto;
+
+}
+#rightSide{
+	position: absolute;
+	top: 0px;
+	width: 30%;
+	right: 0px;
+
+}
+
+#tshirtCanvas{
+	margin-top: 20%;
+}
+
+.konvajs-content{
+	border: #black solid;
+	top: 20%;
+	left: 20%;
+}
+
+div.container{
+	width: 100%;
+	max-width : 100%;
+}
+
+#textMain{
+	width: 100%;
+
+}
+
+#element{
+	max-height: 200px;
+	max-width: 200px;
+	margin: 1em;
+	display: display-inline;
+	
+}
+
+.wrapper { 
+	
+	}
+
+.scrolls { 
+		overflow-x: scroll;
+		overflow-y: hidden;
+		height: 250px;
+	} 
+
+.imageDiv { 
+	margin: 0;
+	height: 250px;
+    min-width: 100px;
+	} 
+
+.imageDiv img { 
+		
+		margin: 2px;
+		cursor: pointer;
+	}
+
+
+.image-picker show-html{
+	margin-bottom: 2em;
+}
+
+
+.name-text{
+	font-size: 20px;
+	width: 30%;
+	height: 25px;
+	border:none;
+	border-bottom: #a32 solid 3px;
+}
+
+.create{
+	text-align: center;
+	font-size: 40px;
+	text-decoration: none;
+	color: #a32;
+}
+
+.uk-modal-dialog.uk-modal-body {
+    width: 80%;
+    height: 600px;
+}
+
+.uk-modal-dialog {
+    position: relative;
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 600px;
+    max-width: calc(100% - .01px)!important;
+    background: #ccc; 
+    opacity: 0;
+    transform: translateY(-100px);
+    transition: .3s linear;
+    transition-property: opacity,transform;
+}
+
+#generated_canvas_0,#generated_canvas_1,#generated_canvas_2,#generated_canvas_3{
+	display: inline-block;
+	width: 75%;
+	height: 570px;
+	background-image: url("./images/shirt.png");
+	background-repeat: no-repeat;
+	background-size: 80% auto;
+
+}
